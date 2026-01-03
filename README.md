@@ -109,9 +109,9 @@ The tutorials use the PBMC 3k dataset (peripheral blood mononuclear cells) from 
 
 ## Key Features
 
-- **Rank-Based Representation**: Convert expression values to gene rankings that preserve ~88% of variance
+- **Rank-Based Representation**: Convert expression values to gene rankings that preserve high variance (demonstrated with R² ~0.88 in the PBMC tutorial)
 - **LLM Integration**: Leverage transformer models for biological interpretation
-- **Reversible Transformation**: Reconstruct expression profiles from cell sentences
+- **Reversible Transformation**: Reconstruct expression profiles from cell sentences using linear models
 - **Visualization**: UMAP plots and comparative analysis tools
 - **Flexible Framework**: Applicable to various single-cell datasets and cell types
 
